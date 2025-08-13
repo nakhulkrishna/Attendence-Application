@@ -16,6 +16,8 @@ struct CustomAppBar: View {
                      Spacer()
                 Button(action: {
                                     isShowingScanner = true
+                    
+                    
                                 }) {
                                     Image(systemName: "qrcode.viewfinder")
                                         .font(.title2)
@@ -41,7 +43,7 @@ struct CustomAppBar: View {
                 ZStack {
                     LocationWidget()
 
-                      
+                    
                 }
             }
         }
